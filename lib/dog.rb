@@ -40,7 +40,7 @@ class Dog  #belong to a shelter & an owner
 end 
 
 
-class Owner # has many dogs 
+class Owner  
   attr_accessor :name, :age
   attr_reader :dogs 
   @@all = []
